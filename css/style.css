@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* common css start */
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.wraper{
+  overflow: hidden;
+}
+ul{
+  list-style: none;
+  padding-bottom: 0px;
+}
+a{
+  text-decoration: none;
+}
+/* common css end*/
+
+/* header css start */
+header{
+  border-bottom: 2px solid #ddd;
+  
+}
+.logo{
+  float: left;
+  width: 10%;
+}
+.logo img{
+  width: 100%;
+}
+.menu{
+  float: right;
+  line-height: 59px;
+}
+
+.menu ul li{
+  display: inline-block;
+}
+.menu ul li a{
+  display: block;
+  margin: 0px 15px;
+  color:black;
+  transition: .5s;
+}
+.menu ul li:last-child a{
+margin-right: 0px;
+}
+.menu ul li a:hover{
+  color:#008AFF;
+  
+}
+/* header css end */
+
+/* banner css start */
+.banner{
+  padding: 50px 0px;
+}
+.container-2{
+  width: 56%;
+  margin: 0 auto;
+}
+.b-content{
+  text-align: center;
+}
+.b-content h1{
+  font-size: 45px;
+  color: #0f2656;
+  margin: 0;
+}
+.b-content h2{
+  font-size: 45px;
+  color: #008aff;
+  margin: 15px 0px;
+  
+}
+.b-content p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0f2656;
+  margin: 10px 0px;
+  line-height: 26px;
+}
+.b-img img{
+  width: 80%;
+}
+/* banner css end */
+/* project css start */
+.project{
+  padding: 50px 0px;
+}
+
+.container-2{
+  width: 55%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.p-left{
+  width: 49%;
+  float: left;
+  text-align: right;
+}
+.p-left span{
+  font-size: 50px;
+  font-weight: 900;
+  color: red;
+}
+.p-left p{
+  line-height:21px ;
+}
+
+.p-right{
+  width: 48%;
+  float: right;
+  
+}
+.p-right h2{
+font-size: 45px;
+
+}
+/* project css end */
+/* service css start */
+.service{
+  padding: 50px 0px;
+
+}
+.service-box{
+  width: 28%;
+  background: #FEEBED;
+  padding:40px 20px;
+  display: inline-block;
+}
+.service-box:nth-child(2){
+  margin: 0px 20px;
+  background: #EBF9F4;
+}
+.service-box:last-child{
+  background: #FFF7E8;
+}
+
+.service-img img{
+  width: 100%;
+}
+.service-box h3{
+  margin: 10px 0px;
+}
+.service-box p{
+  line-height: 21px;
+
+}
+/* service css end */
+/* footer css start */
+footer{
+  background: #008AFF;
+}
+.f-content{
+text-align: center;
+padding: 30px 0px;
+}
+.f-content p{
+  color: #ddd;
+  font-weight: 500;
+  font-size: 18px;
+}
+.f-content p a{
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+/* footer css end */
