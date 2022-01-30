@@ -134,7 +134,7 @@ font-size: 45px;
   display: inline-block;
 }
 .service-box:nth-child(2){
-  margin: 0px 20px;
+  margin: 0 5%;
   background: #EBF9F4;
 }
 .service-box:last-child{
